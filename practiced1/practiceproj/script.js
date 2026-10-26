@@ -17,6 +17,8 @@ btn.addEventListener('click',(e)=>{
     let h2=document.createElement('h2')
     h1.innerHTML=`Name : ${n}`
     h2.innerHTML=`Skill Set : ${s}`
+    localStorage.setItem('name',n)
+    localStorage.setItem('skills',s)
     d.appendChild(h1)
     d.appendChild(h2)
     a.appendChild(d)

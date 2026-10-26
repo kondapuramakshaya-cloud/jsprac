@@ -18,7 +18,7 @@ button{
 }
 button:hover{
     background-color: rgb(3, 3, 220);
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     /* transition-property: linear; */
     /* transition-duration: 2s; */
 }
@@ -30,7 +30,6 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-direction: column;
 
 }
@@ -56,4 +55,29 @@ input{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+section{
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: up;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes up {
+    from{
+        transform: translateY(60px);
+        opacity:1
+    }
+    to{
+        transform: translateY(0px);
+        opacity:0;
+    }
+}
+img{
+    height:300px;
+    width:300px;
+
 }
