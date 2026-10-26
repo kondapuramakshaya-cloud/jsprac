@@ -47,6 +47,8 @@ var ob={
     sk:'ja',
     pack:20
 }
-
+console.log(ob)
+console.log(ob.sk)
+console.log(ob.pack)
 
 
