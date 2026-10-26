@@ -43,5 +43,10 @@ for(let i=skills.length-1;i>=0;i--){
     console.log(skills[i])
 }
 
+var ob={
+    sk:'ja',
+    pack:20
+}
+
 
 
